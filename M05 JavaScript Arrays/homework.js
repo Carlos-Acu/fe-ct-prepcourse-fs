@@ -205,7 +205,7 @@ function breakStatement(num) {
    var suma = num;
    for (var i = 0; i < 10; i++){
       suma = suma + 2;
-      if(suma === 1) break;
+      if(suma === i) break;
       else {
          numeros.push(suma);
       }
